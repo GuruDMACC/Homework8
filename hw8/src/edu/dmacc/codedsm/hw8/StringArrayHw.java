@@ -50,7 +50,7 @@ public class StringArrayHw {
 		hasDigit = hold.matches(".*\\d+.*");
 
 		if (hasDigit == true) {
-			System.out.println("Reject : String has number " + hold);
+			System.err.println("Reject : String has number " + hold);
 			return false;
 		} else {
 
